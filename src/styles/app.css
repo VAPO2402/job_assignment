@@ -1,0 +1,10 @@
+@import "../styles/fonts.css";
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  font-style: normal;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}

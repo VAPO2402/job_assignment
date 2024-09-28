@@ -1,0 +1,71 @@
+.loginMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formMain {
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.formH1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.formStart {
+  margin-bottom: 1rem;
+}
+
+.emailLabel {
+  display: block;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+.emaiInput {
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  color: #4a5568;
+  outline: none;
+}
+
+.emaiInput:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.password {
+  display: block;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+.passwordInput {
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  width: 12vw;
+  padding: 0.5rem 0.75rem;
+  color: #4a5568;
+  outline: none;
+}
+.passwordInput:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.submit {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+}
+.submit:hover {
+  background-color: #1d4ed8;
+}
